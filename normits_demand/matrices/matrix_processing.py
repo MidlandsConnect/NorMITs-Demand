@@ -3444,8 +3444,8 @@ def _recombine_internal_external_internal(in_paths,
 
     # Write the complete matrix to disk
     file_ops.write_df(full_mat, output_path)
-    
-    
+
+
 def combine_partial_matrices(import_dirs: List[nd.PathLike],
                              export_dir: List[nd.PathLike],
                              segmentation: nd.SegmentationLevel,
